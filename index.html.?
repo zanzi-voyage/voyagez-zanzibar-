@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+<<meta name="viewportcontent="width=device-width,initial-scale=1.0"> 
+ <title> VOYAGE À ZANZIBAR LA DESTINATION DE RÊVE</title>
+  <link rel="stylesheet" href="style.css">
+<head>
+<body>
+  <h1>Une destination unique entre plages, culture et aventure
+  <p>Zanzibar est une destination exceptionnelle qui séduit par ses plages de sable blanc, ses eaux turquoise et sa richesse culturelle unique. L’archipel offre une harmonie parfaite entre nature et histoire, avec la célèbre Stone Town classée au patrimoine mondial de l’UNESCO, des forêts luxuriantes comme Jozani, une faune et une flore remarquables, ainsi que des récifs coralliens idéals pour la plongée et le snorkeling. Entre épices exotiques, traditions locales, hospitalité chaleureuse et couchers de soleil spectaculaires, Zanzibar promet une expérience touristique authentique, inoubliable et pleine d’émotions. »
+  
+  <button>CLIQUEZ ICI</button>     
+</body>
+</html>
+

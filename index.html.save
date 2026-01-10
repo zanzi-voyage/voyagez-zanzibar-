@@ -1,0 +1,89 @@
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zanzibar, l’île aux mille merveilles</title>
+
+  <meta name="google-site-verification" content="dCuSRgxtzaDFitwsnsLYnZtbWjHp0JH9tdMiIb_2I9Q" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  Zanzibar, l'île aux mille merveilles.
+</header>
+
+<section class="intro-text">
+  <strong>Explorez Zanzibar avec des guides proffessionels à moins cher. ».</strong><br>
+  Zanzibar est une île paradisiaque aux plages de sable blanc, aux eaux turquoise et à la culture riche. Entre nature, histoire et traditions locales, chaque visiteur découvre une expérience unique et inoubliable. Zanzibar vous invite à explorer sa beauté, son hospitalité et ses merveilles naturelles. »
+</section>
+
+<!-- VIDEO -->
+<section class="video-container">
+  <iframe
+    autoplay=1&mute
+    allow="autoplay; encrypted-media"
+    allowfullscreen>
+  </iframe>
+</section>
+
+<!-- WHATSAPP BUTTON -->
+<a href="https://wa.me/255678859687" class="btn-whatsapp">
+  Book on WhatsApp
+</a>
+
+<!-- ===== GALLERY (FRAMES ONLY) ===== -->
+<section class="gallery">
+
+  <div class="gallery-item frame"><h3>Blue Lagoon</h3></div>
+  <div class="gallery-item frame"><h3>Snorkeling</h3></div>
+  <div class="gallery-item frame"><h3>Boat Trip</h3></div>
+  <div class="gallery-item frame"><h3>Sandbank</h3></div>
+  <div class="gallery-item frame"><h3>Seafood Lunch</h3></div>
+  <div class="gallery-item frame"><h3>Dolphins</h3></div>
+  <div class="gallery-item frame"><h3>Kwale Island</h3></div>
+  <div class="gallery-item frame"><h3>Fruits</h3></div>
+
+</section>
+
+<!-- ===== BOOKING SECTION ===== -->
+<section class="booking">
+
+  <h2>Book Your Zanzibar trip</h2>
+  <p>Veuillez remplir le formulaire ci-dessous pour réserver votre voyage. ».</p>
+
+  <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="720fb952-1d90-413d-a6f8-0f85fea6050e">
+
+    <input type="text" name="name" placeholder="Your Full Name" required>
+    <input type="email" name="email" placeholder="Your Email Address" required>
+    <input type="text" name="phone" placeholder="WhatsApp Phone Number" required>
+    <input type="date" name="date" placeholder="date">
+    <textarea name="message" rows="4" placeholder="Your Message (optional)"></textarea>
+
+    <button type="submit">Submit Booking</button>
+
+  </form>
+
+</section>
+
+<footer>
+  « Pour le transport, veuillez demander  le tarif. <br>
+  Réservez en toute sécurité, paiement à l’arrivée.<br>
+
+
+
+  <a href="https://wa.me/255678859687" class="btn-whatsapp">
+    Chat on WhatsApp
+  </a>
+
+  <p>© 2025 Voyagez à  Zanzibar. All rights reserved.</p>
+</footer>
+
+</b
