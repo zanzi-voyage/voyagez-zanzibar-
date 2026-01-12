@@ -284,3 +284,23 @@ body {
 .footer-text-box p {
   margin: 5px 0;
   }
+.footer-text-box {
+  background-color: #0a5c5a; /* rangi ya background kuanzia maandishi */
+  color: #ffffff;
+  padding: 20px 25px; /* padding juu na chini ya maneno */
+  max-width: 600px;   /* unene wa maandishi */
+  margin: 0 auto;     /* center kwenye page */
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.footer-text-box h4 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #f4d03f;
+}
+
+.footer-text-box p {
+  margin: 5px 0;
+  }
