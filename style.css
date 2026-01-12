@@ -40,3 +40,54 @@
     grid-template-columns: 1fr;
   }
 }
+/* ===== BODY ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #5F9EA0;
+  color: white;
+  text-align: center;
+}
+
+/* ===== GALLERY ===== */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+
+.item {
+  background: #5F9EA0;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.04);
+}
+
+.item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;   /* HUONDOA SPACE NYEUPE */
+}
+
+.item p {
+  margin: 0;
+  padding: 18px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  }
