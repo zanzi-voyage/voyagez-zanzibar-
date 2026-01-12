@@ -1,4 +1,4 @@
-.gallery {
+Tr.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 15px;
@@ -211,3 +211,6 @@ body {
   display: block;     /* huondoa gap */
   vertical-align: top; /* backup */
 }
+.card {
+  line-height: 0;  /* HUONDOA space nyeupe */
+  } 
