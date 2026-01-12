@@ -254,24 +254,22 @@ body {
   margin: 6px 0;
   line-height: 1.6;
 }
-</style>
-.footer-text-box {
-  max-width: 500px;
-  margin: 30px auto;
-  background-color: #0a5c5a !important; /* BACKGROUND YA MANENO TU */
-  color: #ffffff !important;
-  padding: 25px;
-  border-radius: 12px;
+.footer-text-only {
+  display: inline-block; /* Inafanya background iwe tight kwenye maandishi */
+  background-color: #0a5c5a; /* Rangi ya background ya maandishi tu */
+  color: #ffffff;
+  padding: 5px 10px; /* small padding tu juu na chini */
+  border-radius: 5px;
   font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-.footer-text-box h4 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+.footer-text-only h4 {
+  margin-top: 10px;
+  margin-bottom: 5px;
   color: #f4d03f;
 }
 
-.footer-text-box p {
-  margin: 6px 0;
-  line-height: 1.6;
-  }
+.footer-text-only p {
+  margin: 3px 0;
+} 
