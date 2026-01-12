@@ -255,3 +255,23 @@ body {
   line-height: 1.6;
 }
 </style>
+.footer-text-box {
+  max-width: 500px;
+  margin: 30px auto;
+  background-color: #0a5c5a !important; /* BACKGROUND YA MANENO TU */
+  color: #ffffff !important;
+  padding: 25px;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-text-box h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #f4d03f;
+}
+
+.footer-text-box p {
+  margin: 6px 0;
+  line-height: 1.6;
+  }
