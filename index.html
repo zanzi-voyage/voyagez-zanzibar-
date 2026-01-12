@@ -25,7 +25,7 @@
 
 <!-- VIDEO -->
 
-  
+
   <section>
   <div class="video-box">
     <iframe 
@@ -39,20 +39,21 @@
 
 <style>
 .video-box {
-  max-width: 400px;       /* upana ule ule */
-  aspect-ratio: 16 / 9;   /* kufanya iframe ijaze box bila kukata */
-  margin: 20px auto;      
-  border: 2px solid #333; 
-  border-radius: 10px;    
-  overflow: hidden;       
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
-  background: #000;       
+  max-width: 400px;
+  height: 180px;           /* urefu wako ule ule */
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #000;
 }
 
+/* HII NDIO SULUHISHO */
 .video-box iframe {
-  width: 100%;
-  height: 100%;  /* iframe ijaze box lote */
-  display: block;
+  width: 120%;
+  height: 120%;
+  position: relative;
+  top: -10%;
+  left: -10%;
   border: 0;
 }
 </style>
