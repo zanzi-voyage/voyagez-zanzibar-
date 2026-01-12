@@ -185,3 +185,23 @@ body {
     grid-template-columns: 1fr;
   }
 }
+.card {
+  background: #5f9ea0; /* rangi ya box */
+  border-radius: 20px;
+  overflow: hidden; /* muhimu sana */
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block; /* huondoa space nyeupe */
+}
+
+.title {
+  background: #5f9ea0;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
