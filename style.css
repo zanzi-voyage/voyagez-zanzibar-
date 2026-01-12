@@ -214,3 +214,6 @@ body {
 .card {
   line-height: 0;  /* HUONDOA space nyeupe */
   } 
+img {
+  display: block;
+  }
