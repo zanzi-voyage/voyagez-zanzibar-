@@ -40,7 +40,7 @@
 <style>
 .video-box {
   max-width: 400px;       /* upana ule ule */
-  height: 180px;           /* urefu mdogo kutoka juu hadi chini */
+  aspect-ratio: 16 / 9;   /* kufanya iframe ijaze box bila kukata */
   margin: 20px auto;      
   border: 2px solid #333; 
   border-radius: 10px;    
@@ -51,8 +51,9 @@
 
 .video-box iframe {
   width: 100%;
-  height: 100%;  /* iframe inajaza box yote */
+  height: 100%;  /* iframe ijaze box lote */
   display: block;
+  border: 0;
 }
 </style>
 
